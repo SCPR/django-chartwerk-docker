@@ -1,8 +1,6 @@
 Chartwerk on Docker
 ===================
 
-This project deploys the excellent django-chartwerk application using Docker and docker-compose. It uses a bare-bones configuration and is intended as a proof of concept, as well as an excuse for some self-study into the ways of Docker. Feedback is welcome!
-
 Structure
 ---------
 
@@ -35,14 +33,3 @@ docker-compose up
 ```
 
 Then just visit `127.0.0.1:8000/chartwerk` and it should be running. The app will then prompt you to login in. The default username and password are both **admin**.
-
-Issues and next steps
----------------------
-
-  - Deploying to ECS requires writing a v2 docker-compose file, plus additional configuration. Would be good to demo that.
-  - There seems to be an issue with the screenshotting functionality (see tickets)
-
-Questions?
-----------
-
-I'm at chase.davis@gmail.com
