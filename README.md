@@ -26,8 +26,8 @@ Quickstart
 Once you have installed Docker and docker-compose, running the app locally is easy:
 
 ```
-git clone https://github.com/cjdd3b/django-chartwerk-docker.git
-cd django-chartwerk-docker
+git clone https://github.com/SCPR/docker-admin-chartwerk.git
+cd docker-admin-chartwerk
 docker-compose build
 docker-compose up
 ```

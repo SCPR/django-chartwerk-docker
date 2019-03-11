@@ -2,5 +2,5 @@ Django==1.11.20
 django-chartwerk==0.5.20
 psycopg2==2.7.3.2
 celery==4.1.0
-redis==2.10.6
+redis==3.2.0
 gunicorn==19.7.1

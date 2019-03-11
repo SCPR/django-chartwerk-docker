@@ -17,7 +17,7 @@ services:
     depends_on:
       - web
   web:
-    build: .
+    image: scprdev/docker-chartwerk
     env_file:
       - ./config/env/prod.env
     command: ["./scripts/bootstrap.sh"]
